@@ -5,7 +5,7 @@
  Dysk: 500GB
  OS: Windows 8
  ```
- <script src="https://embed.github.com/view/geojson/AdamZielke/zadanie1/master/zapytanie_Gdansk.geojson"></script>
+ 
  
 ##Zestawienie czasów : 
 
