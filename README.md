@@ -93,7 +93,7 @@ select count(*) as ilosc from train
   
 ## Zapytania
 
-#### Szkoły wyższe w odległości do 10km od Gdańska:
+#### Szkoły w odległości do 10km od Gdańska:
  ```js
  db.schools.find( { loc : { $near :
                          { $geometry :
@@ -103,7 +103,7 @@ select count(*) as ilosc from train
               } }, { _id: 0 } )
  ```
 #### Rezultat: [JSON](geojson/zapytanie_Gdansk.json), [GeoJson](geojson/zapytanie_Gdansk.geojson)
-#### Szkoły wyższe w odległości do 10km od Łodzi:
+#### Szkoły  w odległości do 10km od Łodzi:
  ```js
  db.schools.find( { loc : { $near :
                          { $geometry :
@@ -113,7 +113,7 @@ select count(*) as ilosc from train
               } }, { _id: 0 } )
  ```
 #### Rezultat: [JSON](geojson/zapytanie_Lodz.json), [GeoJson](geojson/zapytanie_Lodz.geojson)
-#### Szkoły wyższe w odległości do 10km od Warszawy:
+#### Szkoły w odległości do 10km od Warszawy:
  ```js
  db.schools.find( { loc : { $near :
                          { $geometry :
